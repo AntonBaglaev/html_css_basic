@@ -30,9 +30,14 @@ body {
 
 .header {
     padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     font-size: 14px;
     line-height: normal;
     color: #000;
@@ -45,9 +50,15 @@ body {
     font-size: 16px;
 }
 
+.link__menu_first {
+    color: #F25822;
+}
+
 .top_content {
     margin-top: 84px;
     margin-bottom: 162px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .top__text {
@@ -70,10 +81,14 @@ body {
 
 .top__buttons {
     margin-top: 37px;
+    display: flex;
+    gap: 72px;
+    align-items: center;
 }
 
 .image {
     max-width: 100%;
+    display: block;
 }
 
 .buttons {
@@ -96,4 +111,6 @@ body {
 .footer {
     padding-top: 97px;
     padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
 }
