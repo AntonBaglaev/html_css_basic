@@ -8,6 +8,11 @@
     src: url('./font/Gilroy-Medium.woff2');
 }
 
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('./font/Gilroy-Regular.woff2');
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -129,7 +134,12 @@ body {
 }
 
 .head__item {
+    padding: 40px 30px 25px 30px;
+}
 
+.box-shadow {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    background: #fff;
 }
 
 .icons {
@@ -175,6 +185,7 @@ body {
     line-height: 150%;
     margin-top: 19px;
     margin-bottom: 54px;
+    font-family: 'Gilroy-Regular';
 }
 
 .content {
@@ -206,6 +217,7 @@ body {
     line-height: 150%;
     margin-top: 22px;
     margin-bottom: 39px;
+    font-family: 'Gilroy-Regular';
 }
 
 .buttons {
